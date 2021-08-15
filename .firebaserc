@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "nichaphat-port": {
+      "hosting": {
+        "nichaphat-port": [
+          "nichaphat-port"
+        ]
+      }
+    }
+  }
+}
