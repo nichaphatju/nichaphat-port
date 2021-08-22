@@ -5,6 +5,12 @@ mat-toolbar {
 mat-toolbar > span {
     margin-left: 10px;
 }
+
+.navbar {
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
   
 .yellow-text {
     color: #FDC435;
