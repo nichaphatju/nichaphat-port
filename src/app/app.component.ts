@@ -13,6 +13,13 @@ export class AppComponent {
     private router: Router,
   ){ }
 
+  selectMenu = 1;
+  contentshow = 'app-home';
+  
+  changeMenu(val: any){
+    this.selectMenu = val;
+  }
+
   linkedIn(){
     window.open('https://www.linkedin.com/in/nichaphat-j/');
   }

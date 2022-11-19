@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
   
   linkedIn(){
     window.open('https://www.linkedin.com/in/nichaphat-j/');

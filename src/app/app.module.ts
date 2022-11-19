@@ -22,6 +22,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ProjectComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    NavbarComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
