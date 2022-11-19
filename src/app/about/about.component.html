@@ -1,1 +1,15 @@
-<p>about coming soon!</p>
+<div class="row pl-3">
+    <div class="col-12 col-md-8 my-5 mx-5">
+        <h1><b>Education</b></h1>
+        <div *ngFor="let edu of educations">
+            <p><b>{{edu.title}}</b></p>
+            <p [innerHTML]="edu.detail"></p>
+        </div>
+    </div>
+    <div class="col-12 col-md-8 my-5 mx-5">
+        <h1><b>Certificate</b></h1>
+        <div *ngFor="let cert of certificates">
+            <p><b>{{cert.title}}</b></p>
+        </div>
+    </div>
+</div>

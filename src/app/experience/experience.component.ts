@@ -15,7 +15,7 @@ export class ExperienceComponent implements OnInit {
         name: 'ASG Group',
         website: 'https://www.asggroup.com.au/'
       }, 
-      detail: '•	Working with team and business to migrate current features and data from three existing salesforce instances into one instance. \n •	Implement new features to create recurring tasks, and activities, sending email page to remind users to send reports via email using lightning aura component and lightning web component.'
+      detail: '•	Working with team and business to migrate current features and data from three existing salesforce instances into one instance.<br/> •	Implement new features to create recurring tasks, and activities, sending email page to remind users to send reports via email using lightning aura component and lightning web component.'
     },
     {time: 'Jul 2021 – Jul 2022', position:'Salesforce Developer', 
       company: {

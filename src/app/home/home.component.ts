@@ -19,6 +19,10 @@ export class HomeComponent implements OnInit {
     window.open('https://www.linkedin.com/in/nichaphat-j/');
   }
 
+  trailhead(){
+    window.open('https://trailblazer.me/id/njump');
+  }
+
   toProject(){
     this.router.navigate(['projects']);
   }
