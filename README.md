@@ -33,5 +33,5 @@ Run `firebase logout`
 Then run `firebase login` this will redirect to google webpage authentication
 
 To deploy the changes
-Run `firebase deploy --only hosting`
+Run `npm run build` then run `firebase deploy --only hosting`
 

@@ -41,12 +41,14 @@ export class ExperienceComponent implements OnInit {
       <br/>•	Create technical documents e.g., integration specifications. Consult and discuss solutions to solve issues with the IT team of customers in the meetings.
       `
     },
-    {time: 'Apr 2018 – Dec 2020', position:'Senior Salesforce Developer', 
+    {time: 'Apr 2018 – Dec 2020', position:'Software Engineer', 
       company: {
         name: 'Motif Technology',
         website: 'https://www.linkedin.com/company/motif-technology-public-company-limited'
       }, 
-      detail: 'test'}];
+      detail: `•	Developed and improve enterprise web applications in the role of Software Engineer using HTML, CSS, JSP, JAVA Struts 1, Spring MVC, Hibernate, and SQL. 
+      <br/>•	Supported and had meetings with clients as a maintenance agreement team, maintain, fix issues, and improved (CR) existing web applications as reported by customers including unit tests and deployment.
+      `}];
 
   ngOnInit(): void {
   }
