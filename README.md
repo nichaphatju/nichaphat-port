@@ -35,3 +35,5 @@ Then run `firebase login` this will redirect to google webpage authentication
 To deploy the changes
 Run `npm run build` then run `firebase deploy --only hosting`
 
+If got Error: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token
+logout using `firebase logout` then login again

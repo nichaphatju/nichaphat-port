@@ -12,7 +12,7 @@ export class ExperienceComponent implements OnInit {
   experiences = [
     {time: 'Sep 2022 - Present', position:'Salesforce Consultant', 
       company: {
-        name: 'ASG Group',
+        name: 'NRI Australia & New Zealand (Formerly known as ASG Group)',
         website: 'https://www.asggroup.com.au/'
       }, 
       detail: `•	Working with team and business to migrate current features and data from three existing salesforce instances into one instance.
@@ -39,6 +39,11 @@ export class ExperienceComponent implements OnInit {
       <br/>•	Designed and Implemented modules, for example, a user management process, loan calculation process, and lead assignment process for an enterprise organization. 
       <br/>•	Do unit tests. Create test classes to cover at least 75% of the project code and finish the deployment which mostly uses a gearset.
       <br/>•	Create technical documents e.g., integration specifications. Consult and discuss solutions to solve issues with the IT team of customers in the meetings.
+      `
+    },
+    {time: 'Sep 2017 - Mar 2018', position:'Freelance', 
+      detail: `• Implement web application front-end and back-end parts according to customer's needs.
+      <br/>•	Build front-end pages using Angular 6, Vue.js and back-end REST API Service according to the design specification using JAVA Spring boot, Hibernate, and SQL with a team in Legal Management System and Contractor control management system.
       `
     },
     {time: 'Apr 2018 – Dec 2020', position:'Software Engineer', 

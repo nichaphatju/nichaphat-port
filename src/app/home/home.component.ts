@@ -23,6 +23,10 @@ export class HomeComponent implements OnInit {
     window.open('https://trailblazer.me/id/njump');
   }
 
+  github(){
+    window.open('https://github.com/nichaphatju');
+  }
+
   toProject(){
     this.router.navigate(['projects']);
   }

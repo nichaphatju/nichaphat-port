@@ -1,9 +1,16 @@
-<div class="row pl-3">
+<div class="row ps-3">
     <div class="col-12 col-md-8 my-5 mx-5">
         <div *ngFor="let exp of experiences">
-            <h1><b>{{exp.time}}</b></h1>
-            <p><b>{{exp.position}}</b> at <a href="{{exp.company.website}}" target="_blank">{{exp.company.name}}</a></p>
-            <p [innerHTML]="exp.detail"></p>
+            <div class="d-flex flex-column mb-3">
+                <h1><b>{{exp.time}}</b></h1>
+                
+                <div *ngIf="exp.company"><b>{{exp.position}}</b>  at <a href="{{exp.company?.website}}" target="_blank">{{exp.company?.name}}</a> 
+                </div>
+                <div *ngIf="!exp.company"><b>{{exp.position}}</b></div>
+                <div>
+                    <p [innerHTML]="exp.detail"></p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

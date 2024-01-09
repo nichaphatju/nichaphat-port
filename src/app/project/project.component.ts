@@ -12,4 +12,8 @@ export class ProjectComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  projects = [
+    {img:'', year: '', subject:'', detail:''}
+  ];
+
 }
