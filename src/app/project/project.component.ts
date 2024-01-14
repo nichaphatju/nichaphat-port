@@ -26,6 +26,24 @@ export class ProjectComponent implements OnInit {
     },
     {
       img:'', 
+      year: '2023', 
+      header: 'Salesforce: LWC with Aura Page',
+      subject:'Custom Send Email', 
+      detail:`Custom Send Email page to be used on Task record page`,
+      gitRepo: ``,
+      url: ``
+    },
+    {
+      img:'', 
+      year: '2023', 
+      header: 'Salesforce: LWC with Aura Page',
+      subject:'Case Submission Page', 
+      detail:`SF Aura Component & LWC: Custom Create Case on Salesforce Experience Cloud`,
+      gitRepo: ``,
+      url: ``
+    },
+    {
+      img:'', 
       year: '2020', 
       header: 'Android App: Manage Document Game',
       subject:'Manage Document App', 
@@ -43,25 +61,7 @@ export class ProjectComponent implements OnInit {
       Technology I use was Java for android application, and PHP with SQL and relational database (MySQL) for admins.`,
       gitRepo: ``,
       url: ``
-    },
-    {
-      img:'', 
-      year: '2023', 
-      header: 'Salesforce: LWC with Aura Page',
-      subject:'Custom Send Email', 
-      detail:`Custom Send Email page to be used on Task record page`,
-      gitRepo: ``,
-      url: ``
-    },
-    {
-      img:'', 
-      year: '2023', 
-      header: 'Salesforce: LWC with Aura Page',
-      subject:'Case Submission Page', 
-      detail:`SF Aura Component & LWC: Custom Create Case on Salesforce Experience Cloud`,
-      gitRepo: ``,
-      url: ``
-    },
+    }
     // {img:'', year: '', subject:'Java Web application integrate with Salesforce API: Insurance Customer Journey', detail:''},
     // {img:'', year: '', subject:'SF Aura Component: Loan Calculation Pages', detail:''},
     // {img:'', year: '', subject:'SF LWC: Custom Send Email Page', detail:''},
