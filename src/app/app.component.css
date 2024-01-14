@@ -5,4 +5,54 @@ mat-toolbar {
 mat-toolbar > span {
     margin-left: 10px;
 }
+
+.navbar {
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    border-radius: 10px !important;
+}
   
+.yellow-text {
+    color: #FDC435;
+}
+
+.myname {
+    color: #333333;
+    font-size: 64px;
+}
+
+.normal-text {
+    color: #333333;
+}
+
+.desc-text{
+    color: #828282;
+}
+
+.center{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.mat-card.home-card {
+    padding: 0 !important;
+}
+
+.nav-home {
+    background-color: white;
+}
+
+.nav-home span {
+    font-size: 11pt;
+}

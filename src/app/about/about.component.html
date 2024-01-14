@@ -1,1 +1,40 @@
-<p>about works!</p>
+<div class="d-flex flex-column">
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12">
+                <h1><b>Education</b></h1>
+                <div *ngFor="let edu of educations">
+                    <div class="row d-flex flex-row justify-content-sm-center">
+                        <div class="col-12 col-md-3">
+                            <div class="justify-content-center"><img class="align-self-center responsive ma-5" width="50%" src="{{edu.logo}}" alt="image"></div>
+                        </div>
+                        <div class="col-12 col-md-9 align-self-center">
+                            <p><b>{{edu.title}}</b></p>
+                            <p [innerHTML]="edu.detail"></p>
+                            <p [innerHTML]="edu.university"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <h1><b>Certificates</b></h1>
+                <div class="row flex-column overflow-auto">
+                    <div *ngFor="let cert of certificates">
+                        <div class="row flex-row">
+                            <div class="col-12 col-md-4">
+                                <div class="justify-content-center"><img class="align-self-center responsive ma-5" width="50%" src="{{cert.logo}}" alt="image"></div>
+                            </div>
+                            <div class="col-12 col-md-8 align-self-md-center">
+                                <p><b>{{cert.title}}</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

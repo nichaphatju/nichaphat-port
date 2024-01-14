@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## NOTE
+
+To re-authenticate
+Run `firebase logout`
+Then run `firebase login` this will redirect to google webpage authentication
+
+To deploy the changes
+Run `npm run build` then run `firebase deploy --only hosting`
+
+If got Error: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token
+logout using `firebase logout` then login again
