@@ -1,8 +1,24 @@
 <div class="container">
     <div class="row pl-3">
-        <div class="col-12 col-md-6 my-5 mx-5">
-            <h1><b>PortFolio</b></h1>
-            <p>Coming Soon..</p>
+        <div class="row my-5 mx-2">
+            <div class="mb-3"><h1><b>PortFolio</b></h1></div>
+            <div *ngFor="let pj of projects" class="col-sm-12 col-md-4 px-1 py-1">
+                <div class="card">
+                    <div class="card-header">
+                        {{pj.subject}}
+                    </div>
+                    <img *ngIf="pj.img" class="card-img-top px-2 py-2" src="{{pj.img}}" alt="{{pj.subject}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{pj.subject}}</h5>
+                        <p class="card-text">Year {{pj.year}}</p>
+                        <p class="card-text" [innerHTML]="pj.detail"></p>
+                        <div>
+                            <a *ngIf="pj.gitRepo" href="{{pj.gitRepo}}" target="_blank" class="btn btn-outline-secondary">GitHub Repository</a>
+                            <a *ngIf="pj.url" href="{{pj.url}}" target="_blank" class="btn btn-primary ms-2">See Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
